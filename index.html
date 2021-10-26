@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="stijl.css">
+	<title>CssBattleMinifier</title>
+</head>
+<body>
+	<main>
+		<h1>CSS Battle Minifier</h1>
+		<label>Input:</label>
+		<textarea id="input" placeholder="Put your inputtext here!" autocomplete="off" autofocus rows=10></textarea>
+		<div id="buttons">
+			<button onclick="minify()">Minimize</button>
+			<button onclick="copyToClipboard()">Copy</button>
+		</div>
+		<label>Output:</label>
+		<textarea id="output" placeholder="This wil be your result." readonly rows=10></textarea>
+	</main>
+	<script src="minify.js"></script>
+</body>
+</html>
